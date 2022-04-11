@@ -1,18 +1,14 @@
 <template>
     <layout>
-        <h1>Olá {{ user }} eu sou a home no vuejési</h1>
+        <h1>Eu sou a página about</h1>
     </layout>
 </template>
 
 <script>
 import Layout from '../Layout.vue'
-
 export default {
   components: { Layout },
-    name: 'Home',
-    props: {
-        user: String
-    }
+    name: 'Sobre'
 }
 </script>
 

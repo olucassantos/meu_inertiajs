@@ -25515,6 +25515,14 @@ var map = {
 	"./Home.vue": [
 		"./resources/js/Pages/Home.vue",
 		"resources_js_Pages_Home_vue"
+	],
+	"./Sobre": [
+		"./resources/js/Pages/Sobre.vue",
+		"resources_js_Pages_Sobre_vue"
+	],
+	"./Sobre.vue": [
+		"./resources/js/Pages/Sobre.vue",
+		"resources_js_Pages_Sobre_vue"
 	]
 };
 function webpackAsyncContext(req) {
@@ -25653,7 +25661,7 @@ module.exports = JSON.parse('{"_args":[["axios@0.21.4","C:\\\\projetos\\\\meu_in
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if (chunkId === "resources_js_Pages_Home_vue") return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_Pages_Home_vue":1,"resources_js_Pages_Sobre_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};

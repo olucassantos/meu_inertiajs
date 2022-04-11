@@ -9,6 +9,15 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return Inertia::render('Home');
+        $user = 'Lucas Anjos';
+
+        return Inertia::render('Home', [
+            'user' => $user
+        ]);
+    }
+
+    public function sobre()
+    {
+        return Inertia::render('Sobre');
     }
 }
